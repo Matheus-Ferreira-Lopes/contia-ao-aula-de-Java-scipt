@@ -100,6 +100,9 @@ console.table({ "Soma Total": soma });
 
 console.log("10. Array vazio tarefas, adicione três e exiba numeradas");
 const tarefas = [];
+console.table(tarefas)
+
+
 tarefas.push("Estudar ");
 tarefas.push("Fazer exercício");
 tarefas.push("Ler um livro");
@@ -107,6 +110,7 @@ tarefas.push("Ler um livro");
 // Mapeando para um objeto com ID para usar no console.table
 const tarefasFormatadas = tarefas.map((t, i) => ({ id: i + 1, tarefa: t }));
 console.table(tarefasFormatadas);
+
 
 
 
